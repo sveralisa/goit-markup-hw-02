@@ -112,7 +112,9 @@ a {
 /* ------HERO------ */
 .hero {
   background-color: var(--hero-bg-color);
-  color: var(--second-text-color);
+}
+.hero-title {
+  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -120,20 +122,11 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-.hero-title {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.06em;
-  flex-direction: column;
   color: var(--second-text-color);
 }
 .hero-button {
-  font-family: inherit;
   font-weight: 700;
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -141,6 +134,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--first-button-color);
+  margin: 0 auto;
 }
 .hero-button {
   background: var(--accent-color);
@@ -284,6 +278,7 @@ a {
 }
 
 .menu-button {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
